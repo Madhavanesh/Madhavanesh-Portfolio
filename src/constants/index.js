@@ -27,7 +27,9 @@ import {
     clar_technologies_logo,
     kct_logo,
     ai_blog,
-    anilask_logo
+    anilask_logo,
+    banking,
+    lask_mobile
 } from "../assets/icons";
 
 export const skills = [
@@ -186,5 +188,19 @@ export const projects = [
         name: 'AniLask anime website',
         description: 'Created a fundamental anime streaming website using Django for backend operations and HTML for frontend development, providing a basic platform for users to enjoy their favorite anime shows.',
         link: 'https://github.com/Madhavanesh/Anime-Website',
+    },
+    {
+        iconUrl: banking,
+        theme: 'btn-back-blue',
+        name: 'Lask Banking website',
+        description: 'A modern, secure banking platform built with React, TypeScript, and Plaid integration, enhanced with Sentry for robust error tracking.A user-friendly banking website powered by React and TypeScript, leveraging Plaid for seamless financial data integration and Sentry for reliable error monitoring.',
+        link: 'https://github.com/Madhavanesh/Lask-Banking',
+    },
+    {
+        iconUrl: lask_mobile,
+        theme: 'btn-back-yellow',
+        name: 'Lask Mobile App',
+        description: 'A versatile mobile app built with React Native and Expo, featuring a home page, profile page, liked videos page, and a video creation tool. A user-friendly video app powered by React Native and Expo, offering personalized features like home, profile, liked videos, and video creation.',
+        link: 'https://github.com/Madhavanesh/Lask-Mobile',
     }
 ];

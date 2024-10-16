@@ -30,6 +30,8 @@ import clar_technologies_logo from './clar_technologies_logo.svg'
 import kct_logo from './kct_logo.svg'
 import ai_blog from './ai_blog.svg'
 import anilask_logo from './anilask_logo.svg'
+import banking from './banking.svg'
+import lask_mobile from './lask_mobile.svg'
 
 export {
     css,
@@ -63,5 +65,7 @@ export {
     clar_technologies_logo,
     kct_logo,
     ai_blog,
-    anilask_logo
+    anilask_logo,
+    banking,
+    lask_mobile
 }

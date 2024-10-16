@@ -30,7 +30,7 @@ const Projects = () => {
                 <img
                   src={project.iconUrl}
                   alt='threads'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-10 h-10 object-contain'
                 />
               </div>
             </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  Live Link
+                  View Code
                 </Link>
                 <img
                   src={arrow}
